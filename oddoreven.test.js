@@ -1,3 +1,5 @@
+import assert from "assert"
+
 function oddeven(n){
     function isPrime(num) {
         if (num < 2) {
@@ -10,8 +12,8 @@ function oddeven(n){
         }
         return true;
     }
- res=[]
- for(i=1;i<=n;i++){
+ var res=[]
+ for( var i=1;i<=n;i++){
  if(i%2==0){
     res.push("even")
  }
@@ -25,7 +27,7 @@ else{
 }
 
 
-const assert=require("assert")
+
 
 
 describe(" finding the oddoreven ", function(){

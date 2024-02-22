@@ -1,4 +1,4 @@
-const assert=require("assert")
+import assert from "assert"
 
 function celsious(c){
     var f=(c*(9/5)+32)    //formula to convert celsius to fahrenheit

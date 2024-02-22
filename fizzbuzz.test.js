@@ -1,8 +1,8 @@
-const assert=require("assert")
+import assert from "assert"
 
 function genfizbzz(n){
     let res=[];
-    for(i=1;i<=n;i++){
+    for(var i=1;i<=n;i++){
     // res.push(i)
      if(i%15==0){
         res.push("fizzbuzz")

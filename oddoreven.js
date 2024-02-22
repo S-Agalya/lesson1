@@ -23,5 +23,4 @@ else{
 }
  } return res
 }
-var oddevenresult=oddeven(10)
-console.log(oddevenresult)
+console.log(oddeven(10))
