@@ -22,4 +22,6 @@ function genfizbzz(n){
     }
     return res
 }
-console.log(genfizbzz(10))
+
+const fizzresult=genfizbzz(10)
+console.log(fizzresult)
