@@ -1,9 +1,9 @@
 {
   "dependencies": {
-    "mocha": "^10.3.0"
+    "jest": "^29.7.0"
   },
   "type": "module",
   "scripts": {
-    "test": "mocha **/*.src.js"
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js"
   }
 }
